@@ -1,5 +1,13 @@
 services:
+  tor-proxy:
+    image: peterberno/tor
+    container_name: tor-proxy
+    restart: unless-stopped
+    expose:
+      - "9100"
+
   olcrtc-server:
+    network_mode: "host"
     build:
       context: .
     image: olcrtc/server:local
