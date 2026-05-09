@@ -9,7 +9,7 @@
 
 
 ## About
-olcRTC - across the sea
+olcRTC - across the seа
 
 Project that allows users to bypass blocking by parasitizing and tunneling on unblocked and whitelisted services in Russia, use legal webRTC services
 
